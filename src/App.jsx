@@ -1,10 +1,13 @@
 import "./App.css";
-import Landing from "./pages/Landing";
+import Dashboard from "./pages/Dashboard";
+// import Landing from "./pages/Landing";
 
 function App() {
   return (
     <>
-      <Landing />
+      {/* <Landing /> */}
+      <Dashboard/>
+
     </>
   );
 }
