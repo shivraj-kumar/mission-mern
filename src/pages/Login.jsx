@@ -14,13 +14,13 @@ const Login = () => {
       <form action="/">
       <div className="loginpage">
         <div className="login">
-          <label htmlFor="email">
-            <h4>Email</h4>
-            <input type="email" id="email" placeholder="Email ID" autoComplete="username" />
+          <label htmlFor="lemail">
+            <h5>Email</h5>
+            <input type="email" id="lemail" placeholder="Email ID" autoComplete="username" />
           </label>
-          <label htmlFor="password">
-            <h4>Password</h4>
-            <input type="password" id="password" placeholder="Password" autoComplete="current-password" />
+          <label htmlFor="lpassword">
+            <h5>Password</h5>
+            <input type="password" id="lpassword" placeholder="Password" autoComplete="current-password" />
           </label>
           <button className="signin">
             <p>Sign In</p>
