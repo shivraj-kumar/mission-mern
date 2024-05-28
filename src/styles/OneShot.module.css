@@ -1,0 +1,29 @@
+.oneshot {
+  display: flex;
+  gap: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: Normal;
+  font-size: 16px;
+}
+
+.contents {
+  height: 840px;
+  width: 80%;
+}
+
+.box
+   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+
+.heading{
+  margin: 5px 0px 25px 14px;
+  font-size: 30px;
+}
+
+.x{
+  color: #505EE2;
+}

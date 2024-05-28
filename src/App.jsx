@@ -3,6 +3,7 @@ import Dashboard from "./pages/Dashboard";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import OneShot from "./pages/OneShot"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Dashboard/>
       <Login />
       <Register />
+      <OneShot />
     </>
   );
 }
