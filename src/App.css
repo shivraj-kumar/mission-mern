@@ -7,6 +7,7 @@
 @import "./style.css/Dashboard.css";
 @import "./style.css/Dashpath.css";
 @import "./style.css/Dashcard.css";
+@import "./style.css/Login.css";
 *{
     margin: 0;
     padding: 0;

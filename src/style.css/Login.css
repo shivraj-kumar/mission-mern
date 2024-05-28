@@ -1,0 +1,103 @@
+.loginpage{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.login{
+  height: 85%;
+  width: 40%;
+  margin: 70px 100px 0px 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.picture{
+  height: 100%;
+  width: 30%;
+  margin-left: 25px;
+  /* border: 1px solid black; */
+}
+
+.picture img{
+  height: 100%;
+  width: 100%;
+  
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  margin-right: 50px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+input:focus {
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.signin{
+  height: 35px;
+  width: 120px;
+  border-radius: 7px;
+  background-color: #505EE2;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+
+span{
+  margin-top: 5px;
+  font-size: larger;
+}
+
+button{
+  border: none;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.social{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socialmedia{
+  height: 50px;
+  width: 200px;
+  border-radius: 7px;
+
+}
+
+h2{
+  text-align: center;
+}
+
+.createa{
+  display: flex;
+  justify-content: center;
+}
+
+.caccount{
+  height: 35px;
+  width: 200px;
+  border-radius: 7px;
+  background-color: #505EE2;
+  color: #fff;
+  
+}
+
+p{
+   margin-left: 10px;
+}
