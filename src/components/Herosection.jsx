@@ -8,8 +8,8 @@ function Herosection() {
       <div className="herocont">
         <div className="herobox">
           <h1>
-            <span className="blue">Skill</span>
-            <span className="yellow">Wave</span>
+            <span className="blue blue2">Skill</span>
+            <span className="yellow blue2">Wave</span>
           </h1>
           <p className="heropara">Unlock Your Potential with SkillWave</p>
           <p className="heropara2">
