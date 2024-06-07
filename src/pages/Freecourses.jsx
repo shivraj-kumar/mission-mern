@@ -7,7 +7,6 @@ import image28 from "../images/course logo.svg";
 import image29 from "../images/course logo2.svg";
 import image30 from "../images/course logo3.svg";
 
-
 function Freecourses() {
   return (
     <>
@@ -27,7 +26,7 @@ function Freecourses() {
               para="Learn how to develop a responsive and functional website."
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Yashwant Mandal"
               para3="8 Hours"
               h2="Cloud Computing"
@@ -35,7 +34,7 @@ function Freecourses() {
               para="Master cloud storage & online application and many more"
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Rishu"
               para3="5 Hours"
               h2="Web Design(Ui & UX)"
@@ -43,7 +42,7 @@ function Freecourses() {
               para="Learn how to develop a responsive and functional website."
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Sahil"
               para3="12 Hours"
               h2="Ethical hacking "
@@ -51,7 +50,7 @@ function Freecourses() {
               para="Become a White hacker & protect systems."
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Shivraj Prasad"
               para3="5 Hours"
               h2="MS Excel"
@@ -59,7 +58,7 @@ function Freecourses() {
               para="Excel in spreadsheets & data analysis."
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Shail"
               para3="94 Lessons"
               h2="Automation"
@@ -67,7 +66,7 @@ function Freecourses() {
               para="Automate tasks & data efficiency."
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Ravi"
               para3="24 Lessons"
               h2="Digital Marketing Basics"
@@ -75,7 +74,7 @@ function Freecourses() {
               para="Market your brand online with social media."
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Vaibhav Srijan"
               para3="5 Hours"
               h2="Game Development"
@@ -83,15 +82,15 @@ function Freecourses() {
               para="Build your own games."
               button="Free"
             />
-                <Coursescard
-              para2="Yashwant Mandal "                                                 
+            <Coursescard
+              para2="Yashwant Mandal "
               para3="9 Hours"
               h2="IOT 101"
               imag={image29}
               para="Connect devices to the internet of Things."
               button="Free"
             />
-                <Coursescard
+            <Coursescard
               para2="Ravi"
               para3="6 Hours"
               h2="Blockchain & Cryptocurrency"
@@ -99,7 +98,7 @@ function Freecourses() {
               para="Explore the future of finance with a new digital currency."
               button="Free"
             />
-                 <Coursescard
+            <Coursescard
               para2="Shivraj Prasad"
               para3="13 Hours"
               h2="AI & Machin Learning"
@@ -107,7 +106,7 @@ function Freecourses() {
               para="Master the Future, build intelligent apps with AI & Machine Learning."
               button="Free"
             />
-                 <Coursescard
+            <Coursescard
               para2="Shivraj Prasad"
               para3="5 Hours"
               h2="Web Development in 2024"
@@ -115,7 +114,6 @@ function Freecourses() {
               para="Learn how to develop a responsive and functional website."
               button="Free"
             />
-            
           </div>
         </div>
       </div>

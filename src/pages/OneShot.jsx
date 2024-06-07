@@ -28,7 +28,9 @@ const OneShot = () => {
       <div className={styles.oneshot}>
         <Sidebar />
         <div className={styles.contents}>
-          <h1 className={styles.heading}>OneShot <span className={styles.x}>Revision Lectures:</span></h1>
+          <h1 className={styles.heading}>
+            OneShot <span className={styles.x}>Revision Lectures:</span>
+          </h1>
           <div className={styles.box}>
             {topics.map((topic, index) => (
               <OneshotCard key={index} topic={topic} />

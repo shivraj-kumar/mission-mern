@@ -55,34 +55,34 @@ const Register = () => {
               autoComplete="username"
             />
           </label>
-        
+
           <div className="rpassword">
-          <label htmlFor="password">
-          <h5>Password</h5>
-            <input
-              type="password"
-              id="password"
-              placeholder="Enter Password"
-              autoComplete="current-password"
-            />
+            <label htmlFor="password">
+              <h5>Password</h5>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+                autoComplete="current-password"
+              />
             </label>
             <label>
-            <h5>Confirm Password</h5>
-            <input
-              type="password"
-              id="confirmpassword"
-              placeholder="Confirm Password"
-              autoComplete="current-password"
-            />
+              <h5>Confirm Password</h5>
+              <input
+                type="password"
+                id="confirmpassword"
+                placeholder="Confirm Password"
+                autoComplete="current-password"
+              />
             </label>
           </div>
           <div className="createaccount">
-          <button className="create-account">
-            <p>Create Account</p>
-            <span>
-              <FaArrowRightLong />
-            </span>
-          </button>
+            <button className="create-account">
+              <p>Create Account</p>
+              <span>
+                <FaArrowRightLong />
+              </span>
+            </button>
           </div>
           <img src={imagex8} alt="signupwith" />
           <div className="rsocial">

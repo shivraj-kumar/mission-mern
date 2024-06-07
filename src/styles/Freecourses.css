@@ -1,18 +1,18 @@
-.Freecont{
-    margin-top: 75px;
-    display: flex;
+.Freecont {
+  margin-top: 75px;
+  display: flex;
 }
-.freebox{
-    margin-left: 130px;
-   
-    width: 75%;
+.freebox {
+  margin-left: 130px;
+
+  width: 75%;
 }
-.coursecardfree{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 30px;
+.coursecardfree {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
 }
-.hea2{
-    margin-top: -10px;
+.hea2 {
+  margin-top: -10px;
 }

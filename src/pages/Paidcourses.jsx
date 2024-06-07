@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Navbar from "../components/Navbar";
 import Sidebaar from "../components/Sidebaar";
 import Coursescard from "../components/Coursescard";
@@ -8,8 +8,8 @@ import image29 from "../images/course logo2.svg";
 import image30 from "../images/course logo3.svg";
 function Paidcourses() {
   return (
-   <>
-    <Navbar />
+    <>
+      <Navbar />
       <div className="Freecont">
         <Sidebaar />
         <div className="freebox">
@@ -25,7 +25,7 @@ function Paidcourses() {
               para="Learn how to develop a responsive and functional website ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Yashwant Mandal"
               para3="8 Hours"
               h2="Cloud Computing"
@@ -33,7 +33,7 @@ function Paidcourses() {
               para="Master cloud storage & online application and many more ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Rishu"
               para3="5 Hours"
               h2="Web Design(Ui & UX)"
@@ -41,7 +41,7 @@ function Paidcourses() {
               para="Learn how to develop a responsive and functional website ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Sahil"
               para3="12 Hours"
               h2="Ethical hacking "
@@ -49,7 +49,7 @@ function Paidcourses() {
               para="Become a White hacker & protect systems ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Shivraj Prasad"
               para3="5 Hours"
               h2="MS Excel"
@@ -57,7 +57,7 @@ function Paidcourses() {
               para="Excel in spreadsheets & data analysis ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Shail"
               para3="94 Lessons"
               h2="Automation"
@@ -65,7 +65,7 @@ function Paidcourses() {
               para="Automate tasks & data efficiency ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Ravi"
               para3="24 Lessons"
               h2="Digital Marketing Basics"
@@ -73,7 +73,7 @@ function Paidcourses() {
               para="Market your brand online with social media ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Vaibhav Srijan"
               para3="5 Hours"
               h2="Game Development"
@@ -81,15 +81,15 @@ function Paidcourses() {
               para="Build your own games ”in advance level”"
               button="Paid"
             />
-                <Coursescard
-              para2="Yashwant Mandal "                                                 
+            <Coursescard
+              para2="Yashwant Mandal "
               para3="9 Hours"
               h2="IOT 101"
               imag={image29}
               para="Connect devices to the internet of Things ”in advance level”"
               button="Paid"
             />
-                <Coursescard
+            <Coursescard
               para2="Ravi"
               para3="6 Hours"
               h2="Blockchain & Cryptocurrency"
@@ -97,7 +97,7 @@ function Paidcourses() {
               para="Explore the future of finance with a new digital currency ”in advance level”"
               button="Free"
             />
-                 <Coursescard
+            <Coursescard
               para2="Shivraj Prasad"
               para3="13 Hours"
               h2="AI & Machin Learning"
@@ -105,7 +105,7 @@ function Paidcourses() {
               para="Master the Future, build intelligent apps with AI & Machine Learning ”in advance level”"
               button="Paid"
             />
-                 <Coursescard
+            <Coursescard
               para2="Shivraj Prasad"
               para3="5 Hours"
               h2="Web Development in 2024"
@@ -113,13 +113,11 @@ function Paidcourses() {
               para="Learn how to develop a responsive and functional website ”in advance level”"
               button="Paid"
             />
-            
           </div>
         </div>
       </div>
-   </>
-  )
+    </>
+  );
 }
 
-
-export default Paidcourses
+export default Paidcourses;

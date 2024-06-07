@@ -44,21 +44,13 @@ function Careerpath() {
               h4="
               OOPS Concepts in C++ "
             />
-            <Careerpathcard
-              imag={image21}
-              h2="Python"
-              h4="Machine Learning"
-            />
+            <Careerpathcard imag={image21} h2="Python" h4="Machine Learning" />
             <Careerpathcard
               imag={image22}
               h2="Data Structure "
               h4="Basics to Advance DSA using C++"
             />
-            <Careerpathcard
-              imag={image23}
-              h2="Ui/Ux"
-              h4="Create design"
-            />
+            <Careerpathcard imag={image23} h2="Ui/Ux" h4="Create design" />
             <Careerpathcard
               imag={image24}
               h2="Flutter"

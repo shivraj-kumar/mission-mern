@@ -17,7 +17,6 @@ function Header() {
           <CgDarkMode className="iconstyle" />
           <IoMdNotificationsOutline className="iconstyle" />
           <div className="profile">
-    
             <img src={image} alt="click" />
           </div>
         </div>

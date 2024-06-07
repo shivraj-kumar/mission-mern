@@ -1,0 +1,90 @@
+.card {
+  height: 580px;
+  width: 320px;
+  padding-inline: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 7px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1), -4px 4px 10px rgba(0, 0, 0, 0.1),
+    0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  width: 72.8px;
+  height: 94.67px;
+  position: relative;
+  background-color: #db291c;
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  position: relative;
+  top: 41px;
+  border-left: 37.5px solid transparent;
+  border-right: 37.5px solid transparent;
+  border-bottom: 27px solid white;
+}
+
+h3 {
+  position: relative;
+  color: white;
+  top: 25px;
+  text-align: center;
+}
+
+.headings {
+  height: 94.67px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.content {
+  /* height: 240px; */
+  /* width: 240px; */
+  list-style-type: none;
+}
+
+li {
+  margin-block: 15px;
+  display: flex;
+}
+
+.getstarted {
+  height: 35px;
+  width: 150px;
+  border-radius: 4px;
+  background-color: #505ee2;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.x {
+  position: relative;
+  bottom: 5px;
+  color: rgb(50, 95, 180);
+}
+
+.buttonx {
+  display: flex;
+  justify-content: center;
+  margin: 7px;
+}
+
+img {
+  margin-inline: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}

@@ -11,19 +11,18 @@
   width: 80%;
 }
 
-.box
-   {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-  }
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
 
-.heading{
+.heading {
   margin: 5px 0px 25px 14px;
   font-size: 30px;
 }
 
-.x{
-  color: #505EE2;
+.x {
+  color: #505ee2;
 }

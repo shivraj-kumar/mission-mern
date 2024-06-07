@@ -8,19 +8,21 @@ import Careerpath from "./pages/Careerpath";
 import Careerpath2 from "./pages/Careerpath2";
 import Freecourses from "./pages/Freecourses";
 import Paidcourses from "./pages/Paidcourses";
+import CoursePage from "./pages/CoursePage";
 
 function App() {
   return (
     <>
-       <Landing />
+      <Landing />
       <Dashboard />
       <Careerpath />
       <Login />
       <Register />
       <OneShot />
-      <Careerpath2 /> 
+      <Careerpath2 />
       <Freecourses />
-      <Paidcourses/>
+      <Paidcourses />
+      <CoursePage />
     </>
   );
 }

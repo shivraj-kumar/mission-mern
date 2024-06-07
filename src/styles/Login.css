@@ -32,6 +32,7 @@
   height: 50px;
   width: 100%;
   font-size: 15px;
+  padding-left: 15px;
   margin-right: 50px;
   border-radius: 7px;
   border: none;
@@ -55,7 +56,7 @@
   align-items: center;
 }
 
-span {
+.imx {
   margin-top: 5px;
   font-size: larger;
 }

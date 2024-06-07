@@ -39,7 +39,9 @@ function Landing() {
         <div className="pagl">
           <img src={image7} alt="click" />
         </div>
-     <div className="testibutton"><button className="herobutton">Start your learning journey</button></div>
+        <div className="testibutton">
+          <button className="herobutton">Start your learning journey</button>
+        </div>
       </div>
     </>
   );

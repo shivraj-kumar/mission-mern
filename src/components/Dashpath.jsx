@@ -5,9 +5,9 @@ function Dashpath() {
     <>
       <div className="dashpathcont">
         <h2>Your selected paths</h2>
-       <Dashcard/>
-       <Dashcard/>
-       <button>See All</button>
+        <Dashcard />
+        <Dashcard />
+        <button>See All</button>
       </div>
     </>
   );

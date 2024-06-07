@@ -1,13 +1,12 @@
 import image15 from "../images/dash img.svg";
 import image16 from "../images/dash profile.svg";
 
-
 function Dashcard() {
   return (
-   <>
+    <>
       <div className="dashbox">
-         <div className="dashmini">
-         <div className="dashimage">
+        <div className="dashmini">
+          <div className="dashimage">
             <img src={image15} alt="click" />
           </div>
           <div className="dashdata">
@@ -18,10 +17,10 @@ function Dashcard() {
             </div>
             <p className="dpara rara">30% Completed</p>
           </div>
-         </div>
         </div>
-   </>
-  )
+      </div>
+    </>
+  );
 }
 
 export default Dashcard;

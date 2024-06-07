@@ -6,7 +6,10 @@ import image30 from "../images/coursecertificate.svg";
 function Coursescard(props) {
   return (
     <>
-      <a className="frecourse" href="Introduction to HTML5 Course by University of Michigan | Coursera">
+      <a
+        className="frecourse"
+        href="Introduction to HTML5 Course by University of Michigan | Coursera"
+      >
         <div className="coursebox">
           <div className="courseheadingbox">
             <h2>{props.h2}</h2>

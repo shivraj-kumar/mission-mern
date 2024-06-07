@@ -4,10 +4,10 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import image from "../images/profile.svg";
 import image8 from "../images/search.svg";
 
- function Navbar() {
+function Navbar() {
   return (
     <>
-    <div className="hcontnaire">
+      <div className="hcontnaire">
         <div className="logo">
           <p>
             <span className="blue">Skill</span>
@@ -15,21 +15,20 @@ import image8 from "../images/search.svg";
           </p>
         </div>
         <div className="search">
-            <img src={image8} alt="" />
-            <input type="text" placeholder="Search" />
+          <img src={image8} alt="" />
+          <input type="text" placeholder="Search" />
         </div>
         <div className="icons">
           <IoMdSettings className="iconstyle" />
           <CgDarkMode className="iconstyle" />
           <IoMdNotificationsOutline className="iconstyle" />
           <div className="profile">
-    
             <img src={image} alt="click" />
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default Navbar;
