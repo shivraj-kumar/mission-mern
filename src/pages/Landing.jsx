@@ -5,6 +5,7 @@ import image7 from "../images/talk.svg";
 import Header from "../components/Header";
 import Herosection from "../components/Herosection";
 import Card from "../components/Card";
+import { Link } from "react-router-dom";
 function Landing() {
   return (
     <>
@@ -40,7 +41,7 @@ function Landing() {
           <img src={image7} alt="click" />
         </div>
         <div className="testibutton">
-          <button className="herobutton">Start your learning journey</button>
+         <Link to={'login'}> <button className="herobutton">Start your learning journey</button></Link>
         </div>
       </div>
     </>

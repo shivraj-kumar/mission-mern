@@ -1,6 +1,7 @@
 import image4 from "../images/girl2 image.svg";
 import image2 from "../images/boy image.svg";
 import image3 from "../images/girl image.svg";
+import { Link } from "react-router-dom";
 
 function Herosection() {
   return (
@@ -17,7 +18,7 @@ function Herosection() {
             that education is the key to personal and professional growth, and
             we're here to guide you on your journey to success.
           </p>
-          <button className="herobutton">Start your learning journey</button>
+         <Link to={'/login'}> <button className="herobutton">Start your learning journey</button></Link>
         </div>
         <div className="herobox2">
           <div className="imgbox">

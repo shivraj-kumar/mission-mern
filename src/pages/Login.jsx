@@ -6,6 +6,7 @@ import facebook from "../images/Facebook.svg";
 import google from "../images/Google.svg";
 import microsoft from "../images/Microsoft.svg";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -53,7 +54,7 @@ const Login = () => {
             <h2>Sign In to your account</h2>
             <img src={imagex3} alt="or" />
             <div className="createa">
-              <button className="caccount">Create new account</button>
+              <Link to={'/register'}><button className="caccount">Create new account</button></Link>
             </div>
           </div>
           <div className="picture">
