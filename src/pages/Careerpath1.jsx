@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar'
 import Sidebaar from '../components/Sidebaar'
 import img from "../images/careerpath1.svg";
@@ -17,7 +18,7 @@ const Careerpath1 = () => {
                 </div>
             </div>
             <div className="col2">
-                <button>See Full RoadMap <FaArrowRightLong className='arrow' /></button>
+               <Link to={"/careerpath-roadmap"}> <button>See Full RoadMap <FaArrowRightLong className='arrow' /></button></Link>
             </div>
         </div>
         </div>

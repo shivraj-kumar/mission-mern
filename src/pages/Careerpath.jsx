@@ -28,40 +28,40 @@ function Careerpath() {
               h2="Web Development"
               h4="MaterCreating Website the Art of"
             /></Link>
-            <Careerpathcard
+           <Link to={"/app-dev-roadmap"}> <Careerpathcard
               imag={image18}
               h2="Android Development"
               h4="Android Development for Beginner"
-            />
-            <Careerpathcard
+            /></Link>
+            <Link to="/java-roadmap"><Careerpathcard
               imag={image19}
               h2="Java Programming"
               h4="
               Core Java and Advance Java"
-            />
-            <Careerpathcard
+            /></Link>
+           <Link to={"/cpp-roadmap"}> <Careerpathcard
               imag={image20}
               h2="C++ Programming"
               h4="
               OOPS Concepts in C++ "
-            />
-            <Careerpathcard imag={image21} h2="Python" h4="Machine Learning" />
-            <Careerpathcard
+            /></Link>
+           <Link to={"/python-roadmap"}> <Careerpathcard imag={image21} h2="Python" h4="Machine Learning" /></Link>
+           <Link to={"/data-structure-roadmap"}> <Careerpathcard
               imag={image22}
               h2="Data Structure "
               h4="Basics to Advance DSA using C++"
-            />
-            <Careerpathcard imag={image23} h2="Ui/Ux" h4="Create design" />
-            <Careerpathcard
+            /></Link>
+            <Link to={"/ui-ux-roadmap"}><Careerpathcard imag={image23} h2="Ui/Ux" h4="Create design" /></Link>
+            <Link to={"/flutter-roadmap"}><Careerpathcard
               imag={image24}
               h2="Flutter"
               h4="MaterCreating Website the Art of"
-            />
-            <Careerpathcard
+            /></Link>
+            <Link to={"/data-analytics-roadmap"}><Careerpathcard
               imag={image25}
               h2="Data Analytic"
               h4="MaterCreating Website the Art of"
-            />
+            /></Link>
           </div>
         </div>
       </div>

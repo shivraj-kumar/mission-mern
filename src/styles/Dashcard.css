@@ -16,6 +16,7 @@
   width: 88%;
 }
 .dashdata h3 {
+  /* margin-top: 0px; */
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -27,10 +28,12 @@
   gap: 15px;
   margin: 20px 0px 20px 18px;
 }
+.dashdata h3{
+  position: static;
+}
 .dashprofile {
   margin-top: 7px;
   display: flex;
-  gap: 5px;
   align-items: center;
 }
 .dpara {
@@ -39,4 +42,11 @@
   font-weight: 400;
   color: #7b7b7b;
   line-height: 15.62px;
+}
+.dashprofile img{
+  margin: 0;
+}
+.rara{
+  margin: 0;
+  margin-top: 5px;
 }

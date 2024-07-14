@@ -13,6 +13,15 @@ import OneShot from "./pages/OneShot.jsx";
 import Freecourses from "./pages/Freecourses.jsx";
 import Paidcourses from "./pages/Paidcourses.jsx";
 import Careerpath1 from "./pages/Careerpath1.jsx";
+import Careerpath2 from "./pages/Careerpath2.jsx";
+import Careerpath3 from "./pages/Careerpath3.jsx";
+import Carerpathjava from "./pages/Carerpathjava.jsx";
+import Careerpathpython from "./pages/Careerpathpython.jsx";
+import Careerpathcpp from "./pages/Careerpathcpp.jsx";
+import Careerpathdsa from "./pages/Careerpathdsa.jsx";
+import Careerpathuiux from "./pages/Careerpathuiux.jsx";
+import Careerpathflutter from "./pages/Careerpathflutter.jsx";
+import Careerpathdataanlyst from "./pages/Careerpathdataanlyst.jsx";
 
 let allRoutes = createBrowserRouter(
   [
@@ -46,10 +55,42 @@ let allRoutes = createBrowserRouter(
       path:'/careerpath1',
       element:<Careerpath1/>
     },
-    // {
-    //   path:'/careerpath1',
-    //   element:<Careerpath1/>
-    // },
+    {
+       path:'/careerpath-roadmap',
+     element:<Careerpath2/>
+    },
+    {
+      path:'/app-dev-roadmap',
+    element:<Careerpath3/>
+   },
+   {
+    path:'/java-roadmap',
+  element:<Carerpathjava/>
+ },
+ {
+  path:'/cpp-roadmap',
+element:<Careerpathcpp/>
+},
+{
+  path:'/python-roadmap',
+element:<Careerpathpython/>
+},
+{
+  path:'/data-structure-roadmap',
+element:<Careerpathdsa/>
+},
+{
+  path:'/ui-ux-roadmap',
+element:<Careerpathuiux/>
+},
+{
+  path:'/flutter-roadmap',
+element:<Careerpathflutter/>
+},
+{
+  path:'/data-analytics-roadmap',
+element:<Careerpathdataanlyst/>
+},
 
     // {
     //   path:'login',

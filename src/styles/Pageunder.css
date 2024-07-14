@@ -1,0 +1,23 @@
+.box1 {
+    margin-top: 75px;
+    display: flex;
+  }
+.box2{
+    padding-top: 40px;
+    margin-left: 135px;
+    margin-right: 30px;
+    width: 80%;
+    background-color: white;
+}
+.construct img{
+    width: 475px;
+    height: 420px;
+    display: block;
+    margin-left: 250px;
+    padding-bottom: 40px;
+  }
+  .construct2 img{
+    margin-left: 100px;
+    width: 895px;
+    height: 375px;
+  }
