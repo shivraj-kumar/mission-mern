@@ -5,10 +5,10 @@ const OneshotCart = ({ topic }) => {
   return (
     <>
       <div className={styles.xbox}>
-        <div className="styles.xpicture">
-          <img src={topic.url} alt="img" />
+        <div className={styles.xpicture}>
+          <a href={topic.url}> <img src={topic.pic} alt="img" /> </a>
         </div>
-        <h3>{topic.title}</h3>
+        <h3 className={styles.titles}>{topic.title}</h3>
       </div>
     </>
   );

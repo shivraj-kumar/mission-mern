@@ -5,6 +5,12 @@
 }
 
 .xpicture {
-  height: 191px;
+  height: 170px;
   width: 100%;
+}
+
+.titles{
+  color: black;
+  font-size: larger;
+  font-weight: 500;
 }
