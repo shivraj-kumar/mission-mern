@@ -11,6 +11,8 @@ const CoursePage = () => {
       <div className={styles.contents}>
         <Sidebaar />
         <div className={styles.cardcontents}>
+        <br />
+        <br />
           <h1>
             Choose Your <span>Course</span> :
           </h1>
