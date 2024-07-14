@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/CourseCardPaid.module.css";
 import { PiStarFourThin } from "react-icons/pi";
 import image17 from "../images/youtubex.svg";
@@ -7,6 +6,7 @@ import image19 from "../images/googlex.svg";
 import image20 from "../images/gogli.svg";
 import image21 from "../images/mircrosoftx.svg";
 import image22 from "../images/linkedin.svg";
+import { Link } from "react-router-dom";
 
 const CourseCardPaid = () => {
   const points = [
@@ -38,7 +38,7 @@ const CourseCardPaid = () => {
         ))}
       </ul>
       <div className={styles.buttonx}>
-        <button className={styles.getstarted}>Get Started</button>
+        <Link to="/paidcources"><button className={styles.getstarted}>Get Started</button></Link>
       </div>
       <div className={styles.logo}>
         <img src={image17} alt="YouTube logo" />

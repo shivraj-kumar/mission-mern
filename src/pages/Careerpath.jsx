@@ -10,6 +10,7 @@ import image22 from "../images/data str.jpg";
 import image23 from "../images/uiux.jpg";
 import image24 from "../images/flutter.jpg";
 import image25 from "../images/dataany.jpg";
+import { Link } from "react-router-dom";
 
 function Careerpath() {
   return (
@@ -22,11 +23,11 @@ function Careerpath() {
             Select your desired <span>Career:</span>
           </p>
           <div className="careerbox">
-            <Careerpathcard
+          <Link to={'/careerpath1'}>  <Careerpathcard
               imag={image17}
               h2="Web Development"
               h4="MaterCreating Website the Art of"
-            />
+            /></Link>
             <Careerpathcard
               imag={image18}
               h2="Android Development"

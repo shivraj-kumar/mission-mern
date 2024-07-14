@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Sidebaar from "../components/Sidebaar";
 import Dashpath from "../components/Dashpath";

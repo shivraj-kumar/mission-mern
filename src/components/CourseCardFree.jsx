@@ -4,6 +4,8 @@ import image17 from "../images/youtubex.svg";
 import image18 from "../images/udemyx.svg";
 import image19 from "../images/googlex.svg";
 import image20 from "../images/gogli.svg";
+import { Link } from "react-router-dom";
+// import Freecourses from "../pages/Freecourses";
 
 const CourseCard = () => {
   let points = [
@@ -34,7 +36,7 @@ const CourseCard = () => {
         ))}
       </div>
       <div className={styles.buttonx}>
-        <button className={styles.getstarted}>Get Started</button>
+       <Link to="/freecources" > <button className={styles.getstarted}>Get Started</button></Link>
       </div>
       <div className={styles.logo}>
         <img src={image17} alt="youtubelogo" />
