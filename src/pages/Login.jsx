@@ -12,7 +12,7 @@ const Login = () => {
   return (
     <>
       <Header />
-      <form action="/">
+      <div>
         <div className="loginpage">
           <div className="login">
             <label htmlFor="lemail">
@@ -22,6 +22,7 @@ const Login = () => {
                 id="lemail"
                 placeholder="Email ID"
                 autoComplete="username"
+                required
               />
             </label>
             <label htmlFor="lpassword">
@@ -31,14 +32,17 @@ const Login = () => {
                 id="lpassword"
                 placeholder="Password"
                 autoComplete="current-password"
+                required
               />
             </label>
+            <a href='/dashboard'>
             <button className="signin">
               <p>Sign In</p>
               <span className=".imx">
                 <FaArrowRightLong />
               </span>
             </button>
+            </a>
             <img src={imagex2} alt="line" />
             <div className="social">
               <button className="socialmedia">
@@ -61,7 +65,7 @@ const Login = () => {
             <img src={imagex} alt="picture" />
           </div>
         </div>
-      </form>
+      </div>
     </>
   );
 };

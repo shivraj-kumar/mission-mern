@@ -5,8 +5,17 @@ import imagex8 from "../images/signup.svg";
 import facebook from "../images/Facebook.svg";
 import google from "../images/Google.svg";
 import microsoft from "../images/Microsoft.svg";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Register = () => {
+
+  const notify = () => {
+    toast.success('User created successfully', {
+      position: "bottom-left",
+
+      });
+  }
   return (
     <>
       <Header />
@@ -24,6 +33,7 @@ const Register = () => {
                 id="firstname"
                 placeholder="First Name"
                 autoComplete="username"
+                required
               />
             </label>
             <label htmlFor="lastname">
@@ -33,6 +43,7 @@ const Register = () => {
                 id="lastname"
                 placeholder="Last Name"
                 autoComplete="username"
+                required
               />
             </label>
           </div>
@@ -44,6 +55,7 @@ const Register = () => {
               id="username"
               placeholder="Username"
               autoComplete="username"
+              required
             />
           </label>
           <label>
@@ -53,6 +65,7 @@ const Register = () => {
               id="remail"
               placeholder="Email ID"
               autoComplete="username"
+              required
             />
           </label>
 
@@ -64,6 +77,7 @@ const Register = () => {
                 id="password"
                 placeholder="Enter Password"
                 autoComplete="current-password"
+                required
               />
             </label>
             <label>
@@ -73,17 +87,19 @@ const Register = () => {
                 id="confirmpassword"
                 placeholder="Confirm Password"
                 autoComplete="current-password"
+                required
               />
             </label>
           </div>
           <div className="createaccount">
-            <button className="create-account">
+            <button className="create-account" onClick={notify}>
               <p>Create Account</p>
               <span>
                 <FaArrowRightLong />
               </span>
             </button>
           </div>
+          <a href="/login" className="loginlink" >Or login</a>
           <img src={imagex8} alt="signupwith" />
           <div className="rsocial">
             <button className="rsocialmedia">
@@ -96,6 +112,7 @@ const Register = () => {
               <img src={microsoft} alt="microsoft" />
             </button>
           </div>
+          <ToastContainer />
         </div>
       </div>
     </>

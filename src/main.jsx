@@ -22,14 +22,16 @@ import Careerpathdsa from "./pages/Careerpathdsa.jsx";
 import Careerpathuiux from "./pages/Careerpathuiux.jsx";
 import Careerpathflutter from "./pages/Careerpathflutter.jsx";
 import Careerpathdataanlyst from "./pages/Careerpathdataanlyst.jsx";
+import Landing from "./pages/Landing.jsx";
+import Login from "./pages/Login.jsx";
+import Register from "./pages/Register.jsx";
 
 let allRoutes = createBrowserRouter(
   [
     {
       path:'/',
-      
-      // element:<Landing/>
-      element:<Dashboard/>
+      element:<Landing/>
+    
     },
     {
       path:'/course',
@@ -91,15 +93,19 @@ element:<Careerpathflutter/>
   path:'/data-analytics-roadmap',
 element:<Careerpathdataanlyst/>
 },
-
-    // {
-    //   path:'login',
-    //   element:<Login/>
-    // },
-    // {
-    //   path:"register",
-    //   element:<Register/>
-    // }
+    {
+      path:'login',
+      element:<Login/>
+    },
+    {
+         path:"register",
+      element:<Register/>
+    },
+    {
+      path: '/dashboard',
+      element:<Dashboard />
+    }
+   
   ]
 )
 
