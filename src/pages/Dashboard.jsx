@@ -8,8 +8,17 @@ import dashimage3 from "../images/dashc++.svg";
 import dashimage4 from "../images/dashui.svg";
 import dashimage5 from "../images/trending.svg";
 import dashimage6 from "../images/progress.svg";
+import { useEffect } from "react";
+import { useNavigate } from "react-router";
 
 function Dashboard() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token == undefined) {
+      navigate("/login");
+    }
+  }, []);
   return (
     <>
       <Navbar />
@@ -24,25 +33,25 @@ function Dashboard() {
               percent="30% Completed"
               name="Shivraj Prasad"
             />
-             <Dashcard
+            <Dashcard
               img={dashimage1}
               heading="Web Development"
               percent="40% Completed"
               name="Rishu kumar"
             />
-             <Dashcard
+            <Dashcard
               img={dashimage2}
               heading="Web Development"
               percent="20% Completed"
               name="Vaibhav"
             />
-             <Dashcard
+            <Dashcard
               img={dashimage3}
               heading="Web Development"
               percent="30% Completed"
               name="Yashwant"
             />
-             <Dashcard
+            <Dashcard
               img={dashimage4}
               heading="Web Development"
               percent="30% Completed"
@@ -51,13 +60,13 @@ function Dashboard() {
           </div>
         </div>
         <div className="dashbor-contanire">
-        <div className="dashbor-contanire-box">
+          <div className="dashbor-contanire-box">
             <img src={dashimage5} alt="click" />
-            </div>
-            <div className="dashbor-contanire-box2">
+          </div>
+          <div className="dashbor-contanire-box2">
             <img src={dashimage6} alt="click" />
           </div>
-          </div>
+        </div>
       </div>
     </>
   );

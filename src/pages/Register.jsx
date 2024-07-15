@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../components/Header";
 import imagex7 from "../images/Register.svg";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -5,17 +6,32 @@ import imagex8 from "../images/signup.svg";
 import facebook from "../images/Facebook.svg";
 import google from "../images/Google.svg";
 import microsoft from "../images/Microsoft.svg";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
 
 const Register = () => {
-
-  const notify = () => {
-    toast.success('User created successfully', {
-      position: "bottom-left",
-
+  const submitHandler = (e) => {
+    e.preventDefault();
+    const formData = {
+      firstName: e.target.firstName.value,
+      lastName: e.target.lastName.value,
+      email: e.target.email.value,
+      number: e.target.number.value,
+      password: e.target.password.value,
+    };
+    axios
+      .post("http://localhost:7000/api/user/signup", formData)
+      .then((res) => {
+        console.log(res);
+        toast.success(res.data.message);
+      })
+      .catch((err) => {
+        console.log(err);
+        toast.success(err.response.data.msg);
       });
-  }
+  };
+
   return (
     <>
       <Header />
@@ -23,13 +39,15 @@ const Register = () => {
         <div className="regpic">
           <img src={imagex7} alt="regpic" />
         </div>
-        <div className="register">
+        <form className="register" onSubmit={submitHandler}>
           <h2 className="cua">Create your account</h2>
+
           <div className="name">
             <label htmlFor="firstname">
               <h5>Full Name</h5>
               <input
                 type="text"
+                name="firstName"
                 id="firstname"
                 placeholder="First Name"
                 autoComplete="username"
@@ -41,6 +59,7 @@ const Register = () => {
               <input
                 type="text"
                 id="lastname"
+                name="lastName"
                 placeholder="Last Name"
                 autoComplete="username"
                 required
@@ -48,13 +67,13 @@ const Register = () => {
             </label>
           </div>
 
-          <label htmlFor="username">
-            <h5>Username</h5>
+          <label htmlFor="number">
+            <h5>Number</h5>
             <input
-              type="text"
-              id="username"
-              placeholder="Username"
-              autoComplete="username"
+              type="number"
+              name="number"
+              id="number"
+              placeholder="Number"
               required
             />
           </label>
@@ -63,6 +82,7 @@ const Register = () => {
             <input
               type="email"
               id="remail"
+              name="email"
               placeholder="Email ID"
               autoComplete="username"
               required
@@ -75,6 +95,7 @@ const Register = () => {
               <input
                 type="password"
                 id="password"
+                name="password"
                 placeholder="Enter Password"
                 autoComplete="current-password"
                 required
@@ -92,14 +113,16 @@ const Register = () => {
             </label>
           </div>
           <div className="createaccount">
-            <button className="create-account" onClick={notify}>
+            <button className="create-account">
               <p>Create Account</p>
               <span>
                 <FaArrowRightLong />
               </span>
             </button>
           </div>
-          <a href="/login" className="loginlink" >Or login</a>
+          <a href="/login" className="loginlink">
+            Or login
+          </a>
           <img src={imagex8} alt="signupwith" />
           <div className="rsocial">
             <button className="rsocialmedia">
@@ -113,7 +136,7 @@ const Register = () => {
             </button>
           </div>
           <ToastContainer />
-        </div>
+        </form>
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-.registerpage{
+.registerpage {
   height: 650px;
   width: 100%;
   display: flex;
@@ -6,11 +6,9 @@
   font-family: "Poppins", sans-serif;
   font-weight: Normal;
   font-size: 16px;
-  
 }
 
-
-.register{
+.register {
   height: 100%;
   width: 45%;
   display: flex;
@@ -19,28 +17,30 @@
   border-radius: 7px;
 }
 
-.regpic{
-  height: 85%;  
+.regpic {
+  height: 85%;
   width: 30%;
   border-radius: 7px;
 }
 
-.regpic img{
+.regpic img {
   height: 100%;
   width: 100%;
 }
-.cua{
+.cua {
   text-align: center;
   font-size: 29px;
   font-weight: 600;
 }
-.name{
+.name {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-#firstname, #lastname{
+#firstname,
+#lastname,
+#number {
   height: 50px;
   width: 325px;
   font-size: 15px;
@@ -51,13 +51,15 @@
   outline: none;
 }
 
-#firstname:focus, #lastname:focus, #username:focus, #remail:focus{
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
-
+#firstname:focus,
+#lastname:focus,
+#username:focus,
+#remail:focus {
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 
-
-#remail, #username{
+#remail,
+#username {
   height: 50px;
   width: 100%;
   font-size: 15px;
@@ -68,14 +70,15 @@
   outline: none;
 }
 
-.rpassword{
+.rpassword {
   width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-#password, #confirmpassword{
+#password,
+#confirmpassword {
   height: 50px;
   width: 325px;
   font-size: 15px;
@@ -86,47 +89,46 @@
   outline: none;
 }
 
-.create-account{
+.create-account {
   height: 38px;
   width: 180px;
   border-radius: 7px;
-  background-color: #505EE2;
+  background-color: #505ee2;
   color: #fff;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.createaccount{
+.createaccount {
   display: flex;
   justify-content: center;
 }
-span{
+span {
   margin-top: 5px;
   font-size: larger;
 }
 
-button{
+button {
   border: none;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-
 }
 
-.rsocial{
+.rsocial {
   display: flex;
   justify-content: space-between;
 }
 
-.rsocialmedia{
+.rsocialmedia {
   height: 50px;
   width: 210px;
   border-radius: 7px;
 }
 
-.toasty{
+.toasty {
   margin-left: 600px;
 }
 
-.loginlink{
+.loginlink {
   text-align: center;
   color: black;
   font-weight: 400;
