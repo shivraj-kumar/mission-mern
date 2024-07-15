@@ -3,9 +3,14 @@ import image10 from "../images/career.svg";
 import image12 from "../images/oneshots.svg";
 import image13 from "../images/logout.svg";
 import image14 from "../images/connect.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Sidebaar() {
+  const navigate = useNavigate();
+  const logout = () => {
+    localStorage.clear();
+    navigate("/");
+  };
   return (
     <>
       <div className="sidebaarcont">
@@ -35,7 +40,7 @@ function Sidebaar() {
             </div>
           </Link>
           <a href="">
-            <div className="dash">
+            <div className="dash" onClick={logout}>
               <img src={image13} alt="click" />
               <p>Logout</p>
             </div>
